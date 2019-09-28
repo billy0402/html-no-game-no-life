@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css');
+
+
+
+/* element */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+
+    background: url(../images/background.jpg) center/cover no-repeat fixed;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+ol {
+    padding: 20px 50px;
+    border: white 1px dashed;
+}
+
+
+
+/* header */
+header {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    min-width: 800px;
+    height: 80px;
+    background-color: rgba(123, 34, 76, 0.9);
+    box-shadow: 0px 2px 5px 0px black;
+}
+
+
+
+/* nav */
+nav {
+    margin: 40px auto 0px auto;
+    width: 700px;
+    height: 40px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+img.logo {
+    width: 75%;
+}
+
+
+
+/* container */
+div.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    position: relative;
+    z-index: 5;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+}
+
+
+
+/* article */
+article {
+    padding: 20px 50px;
+    text-align: justify;
+    color: #FEFFED;
+}
+
+
+
+/* title */
+div.title {
+    line-height: 50px;
+}
+
+img.chess {
+    margin-right: 10px;
+    float: left;
+    width: 50px;
+}
+
+
+
+/* slogan */
+.slogan {
+    text-align: center;
+}
+
+h3.slogan {
+    text-indent: -1em;
+}
+
+h1.slogan span {
+    color: #B3B8EE;
+}
+
+
+
+/* character */
+div.character {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #FEFFED;
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 340px;
+    font-family: 'cwTeXFangSong', serif;
+    text-align: justify;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+div.character:nth-child(1),
+div.character:nth-child(2),
+div.half:nth-child(1),
+div.two {
+    margin-right: 20px;
+}
+
+div.character h3 {
+    padding: 0px 10px;
+}
+
+div.character p {
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 0px 10px;
+}
+
+
+
+/* half two one */
+div.half,
+div.two,
+div.one {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+    text-align: justify;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+div.half {
+    width: 340px;
+    height: 260px;
+}
+
+div.two,
+div.one {
+    height: 350px;
+}
+
+div.two {
+    width: 440px;
+}
+
+div.one {
+    width: 220px;
+}
+
+div.two img,
+div.one img {
+    height: 300px;
+}
+
+
+
+/* novel */
+section.novel table {
+    margin-top: 20px;
+    float: left;
+    width: 700px;
+}
+
+section.novel table tr td img {
+    margin-right: 10px;
+    float: left;
+    width: initial;
+    height: 80px;
+    border-radius: 40px;
+}
+
+section.novel table tr td p {
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 80px;
+    font-size: 14px;
+}
+
+
+
+/* paragraph */
+p.paragraph {
+    text-indent: 2em;
+}
+
+
+
+/* footer */
+footer {
+    height: 60px;
+    line-height: 60px;
+    background-color: #4A0F0A;
+    font-size: 14px;
+    text-align: center;
+    color: #FEFFED;
+}
